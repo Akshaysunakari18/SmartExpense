@@ -1,0 +1,22 @@
+# Protect secrets
+.env
+.env.*
+**/.env
+**/.env.*
+
+# Allow example environment files
+!.env.example
+!**/.env.example
+
+# Dependencies
+node_modules/
+
+# Build files
+dist/
+
+# Logs
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
